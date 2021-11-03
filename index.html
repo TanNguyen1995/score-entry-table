@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asm2.css">
+    <title>Document</title>
+</head>
+</body>
+<script src="asm2.js" > </script>
+    <h1> Class Marksheet</h1>
+    <div id="content">
+    <span>Họ tên:   </span><input id="name" type="text" value=""><br>   
+    <span>Điểm toán:</span><input id="toan" type="text" value=""><br>
+    <span>Điểm lý:  </span><input id="ly" type="text" value=""><br>
+    <span>Điểm hóa: </span><input id="hoa" type="text" value=""><br>
+    </div>
+    <button id="Nhap" onclick="Nhap()" > Nhập</button><br>
+    <table id="table">
+        <th>STT</th>
+        <th>Họ và Tên</th>
+        <th>Toán</th>
+        <th>Lý</th>
+        <th>Hóa</th>
+        <th>Trung Bình</th>
+    </table>
+    <div id="btn">
+    <button id="TB" onclick="Tinhdiem()" > Tính điểm trung bình</button>
+    <button id="HS" onclick="hs()" > Xác định học sinh giỏi</button>
+    <button id="HS TB" onclick="hs_tb()" > Xác định học dưới trung bình</button>
+    <button id="Xoa" onclick="xoa()" > Xóa </button>
+    </div>
+</body>
+</html>
